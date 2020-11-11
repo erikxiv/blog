@@ -9,25 +9,11 @@ language: 'en-uk'
 # Website info
 name: 'xiv'
 description: "Thoughts, stories and ideas."
-tags:
-  - apache
-  - docker
-  - emberjs
-  - fail
-  - github
-  - gulp
-  - heroku
-  - neo4j
-  - nodejs
-  - reverse proxy
-  - synology
-  - travisci
-  - workflow 
 
-short_url: 'erikxiv.com/blog/'
+short_url: 'blog.erikxiv.com/'
 google_analytics: UA-3302980-2
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /blog/
+baseurl: /
 
 # Permalinks
 permalink: /:title
@@ -63,7 +49,7 @@ repo: blog
 branch: master
 relative_source: ../blog/
 destination: ../gh-pages/
-production_url:  https://erikxiv.github.io/blog/
+production_url:  https://blog.erikxiv.com/
 source_url:  https://github.com/erikxiv/blog/
 
 exclude:
